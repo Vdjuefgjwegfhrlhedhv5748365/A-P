@@ -24,3 +24,5 @@ int remove_Book(BOOK *catalog, int *cnt, int index);
 int saveCatalog_to_file(const BOOK *catalog, int cnt, const char *filename);
 int loadCatalog_from_file(BOOK **catalog, int *cnt, int *capacity, const char *filename);
 int compare_books(const BOOK *a, const BOOK *b, SortingType type);
+void sort_catalog(BOOK *catalog, int cnt, SortingType type);
+
