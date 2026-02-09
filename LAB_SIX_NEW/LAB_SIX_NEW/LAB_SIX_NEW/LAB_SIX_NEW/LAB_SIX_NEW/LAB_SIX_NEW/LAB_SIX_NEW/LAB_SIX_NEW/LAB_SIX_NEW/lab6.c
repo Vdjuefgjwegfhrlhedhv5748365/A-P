@@ -139,7 +139,9 @@ int main(){
                 
                 fgets(inputBuffer, sizeof(inputBuffer), stdin);
                 int sortOpt = atoi(inputBuffer);
+                //scanf("%d", &sortOpt);
                 SortingType type;
+
                 switch (sortOpt){
                     case 1: 
                         type = SORT_AUTHORS;
