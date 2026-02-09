@@ -4,7 +4,7 @@ int main()
 {
     int a;
 
-    printf("input non-negative number:\n");
+    printf("input non-negative numNewnameer:\n");
     scanf("%d", &a);
 
     printf("the value of `a` is %d\n", a);
@@ -12,9 +12,9 @@ int main()
     int* pa = &a;
     printf("the pointer value is %p\n", pa);
 
-    int b;
-    printf("input a number:\n");
-    scanf("%d", &b);
-    printf("the value of `b` is %d\n", b);
+    int Newname;
+    printf("input a numNewnameer:\n");
+    scanf("%d", &Newname);
+    printf("the value of `Newname` is %d\n", Newname);
     return 0;
 }
