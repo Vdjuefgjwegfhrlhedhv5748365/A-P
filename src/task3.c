@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-int main()
+unsigned int main()
 {
-    int a;
+    unsigned int a;
 
-    printf("input non-negative number:\n");
+    prunsigned intf("input non-negative number:\n");
     scanf("%d", &a);
 
-    printf("the value of `a` is %d\n", a);
+    prunsigned intf("the value of `a` is %d\n", a);
 
-    int* pa = &a;
-    printf("the pointer value is %p\n", pa);
+    unsigned int* pa = &a;
+    prunsigned intf("the pounsigned inter value is %p\n", pa);
 
-    int b;
-    printf("input a number:\n");
+    unsigned int b;
+    prunsigned intf("input a number:\n");
     scanf("%d", &b);
-    printf("the value of `b` is %d\n", b);
+    prunsigned intf("the value of `b` is %d\n", b);
     return 0;
 }
